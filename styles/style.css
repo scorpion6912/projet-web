@@ -53,23 +53,90 @@ header .search input:focus {
     outline: none;
 }
 
+.corps {
+    background-image: url(/assets/KDA\ all\ out.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 100% 100%; 
+}
 .bienvenue h1 {
     text-transform: uppercase;
     text-align: center;
-    margin-top: 5px;
+    margin: 2vh 0vw;
+}
+.article ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.article ul li {
+    margin: 0vh 5vw;
+}
+.article ul li img{
+    height: 35vh;
+}
+.article ul li a {
+    font-size: 25px;
+    border: blanchedalmond solid 2px ;
+    font-weight: bold;
+}
+.article ul .reduction{
+    text-decoration: line-through ;
+}
+.article2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.article2 ul li {
+    margin: 0vh 5vw;
+}
+.article2 ul li img{
+    height: 35vh;
+}
+.article2 ul li a {
+    font-size: 25px;
+    border: blanchedalmond solid 2px ;
+    font-weight: bold;
+}
+.article2 ul .reduction{
+    text-decoration: line-through ;
+}
+.article3 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.article3 ul li {
+    margin: 0vh 5vw;
+}
+.article3 ul li img{
+    height: 35vh;
+}
+.article3 ul li a {
+    font-size: 25px;
+    border: blanchedalmond solid 2px ;
+    font-weight: bold;
+}
+.article3 ul .reduction{
+    text-decoration: line-through ;
 }
 
 
 footer {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    background-color: black;
 }
 footer ul{
     display: flex;
     align-items: center;
 }
 footer img{
-    width: 5vh;
+    width: 6vh;
 }
 footer ul li{
     padding: 0px 11vw;
