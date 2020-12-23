@@ -53,7 +53,6 @@ header .search input:focus {
     outline: none;
 }
 
-<<<<<<< HEAD
 .corps {
     background-image: url(/assets/KDA\ all\ out.jpg);
     background-repeat: no-repeat;
@@ -124,33 +123,19 @@ header .search input:focus {
 }
 .article3 ul .reduction{
     text-decoration: line-through ;
-=======
-.bienvenue h1 {
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 5px;
->>>>>>> master
 }
-
 
 footer {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-<<<<<<< HEAD
     background-color: black;
-=======
->>>>>>> master
 }
 footer ul{
     display: flex;
     align-items: center;
 }
 footer img{
-<<<<<<< HEAD
     width: 6vh;
-=======
-    width: 5vh;
->>>>>>> master
 }
 footer ul li{
     padding: 0px 11vw;
