@@ -53,33 +53,50 @@ header .search input:focus {
 header .search input:focus {
     outline: none;
 }
-/* main page */
+/* main */
 .main {
-    background-image: url(/assets/fond2.png);
+    background-image: url(/assets/logo_test2.png);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: 100% 100%;
     
 }
-.title h1 {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 2vh 0vw;
-}
-.texte{
+.line1 ul {
     display: flex;
-    justify-content: center;
-    align-self: center;
 }
-.texte p {
+.line1 img {
+    height: 35vh;
+}
+.line1 ul li {
+    margin: 0vh 3.5vw;
+    border: solid purple 5px;
+    background-color: royalblue;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    
+}
+.line1 ul li p {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    margin-top: 28vh;
-    margin-bottom: 28vh;
-    border: blueviolet solid 5px;
-    border-radius: 10px;
-    background: url(/assets/logo_test2.png);
+}
+.line2 ul {
+    display: flex;
+}
+.line2 img {
+    height: 35vh;
+}
+.line2 ul li {
+    margin: 0vh 3.5vw;
+    border: solid purple 5px;
+    background-color: royalblue;
+    border-radius: 5px;
+    
+}
+.line2 ul li p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
 }
 /* Footer */
 footer {

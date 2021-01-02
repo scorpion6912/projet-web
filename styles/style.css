@@ -9,6 +9,7 @@ a {
     color: black;
     text-decoration: none;
 }
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -52,9 +53,9 @@ header .search input:focus {
 header .search input:focus {
     outline: none;
 }
-
+/* Main page*/
 .corps {
-    background-image: url(/assets/KDA\ all\ out.jpg);
+    background-image: url(/assets/KDA_all_out.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: 100% 100%; 
@@ -78,8 +79,13 @@ header .search input:focus {
 }
 .article ul li a {
     font-size: 25px;
-    border: blanchedalmond solid 2px ;
+    background: blueviolet ;
     font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.article ul li a:hover{
+    border: blueviolet solid 3px;
+    background: blue;
 }
 .article ul .reduction{
     text-decoration: line-through ;
@@ -98,8 +104,13 @@ header .search input:focus {
 }
 .article2 ul li a {
     font-size: 25px;
-    border: blanchedalmond solid 2px ;
+    background: blueviolet ;
     font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.article2 ul li a:hover{
+    border: blueviolet solid 3px;
+    background:blue;
 }
 .article2 ul .reduction{
     text-decoration: line-through ;
@@ -118,13 +129,18 @@ header .search input:focus {
 }
 .article3 ul li a {
     font-size: 25px;
-    border: blanchedalmond solid 2px ;
+    background: blueviolet ;
     font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.article3 ul li a:hover{
+    border: blueviolet solid 3px;
+    background:blue;
 }
 .article3 ul .reduction{
     text-decoration: line-through ;
 }
-
+/* Footer */
 footer {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
