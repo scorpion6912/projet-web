@@ -9,53 +9,10 @@ a {
     color: black;
     text-decoration: none;
 }
-/* HEADER */
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.3) ;
-}
-header img{
-    height: 10vh;
-}
-header ul {
-    display: flex;
-    align-items: center;
-}
-header ul li {
-    margin: 0 2vw;
-    transition: 0.5s ease-in-out;
-}
-header ul li:hover {
-    background: cornflowerblue;
-    border-bottom: darkblue solid 3px;
-}
-header .search img {
-    height: 5vh;
-}
-header .search{
-    display: flex;
-    align-items: center;
-}
-header .search input {
-    margin-right: 1vw;
-    padding: 10px;
-    border-radius: 20px;
-    transition: 0.5s ease-in-out;
-    width: 6vw;
-}
-header .search input:hover,
-header .search input:focus {
-    width: 20vw;
-    background: lightskyblue;
-}
-header .search input:focus {
-    outline: none;
-}
+
 /* Main page*/
-.corps {
-    background-image: url(/assets/KDA_all_out.jpg);
+main {
+    background-image: url(../assets/KDA_all_out.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: 100% 100%; 
@@ -139,20 +96,4 @@ header .search input:focus {
 }
 .article3 ul .reduction{
     text-decoration: line-through ;
-}
-/* Footer */
-footer {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    background-color: black;
-}
-footer ul{
-    display: flex;
-    align-items: center;
-}
-footer img{
-    width: 6vh;
-}
-footer ul li{
-    padding: 0px 11vw;
 }

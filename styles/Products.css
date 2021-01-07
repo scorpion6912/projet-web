@@ -9,57 +9,19 @@ a {
     color: black;
     text-decoration: none;
 }
-/* header */
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.3) ;
-}
-header img{
-    height: 10vh;
-}
-header ul {
-    display: flex;
-    align-items: center;
-}
-header ul li {
-    margin: 0 2vw;
-    transition: 0.5s ease-in-out;
-}
-header ul li:hover {
-    background: cornflowerblue;
-    border-bottom: darkblue solid 3px;
-}
-header .search img {
-    height: 5vh;
-}
-header .search{
-    display: flex;
-    align-items: center;
-}
-header .search input {
-    margin-right: 1vw;
-    padding: 10px;
-    border-radius: 20px;
-    transition: 0.5s ease-in-out;
-    width: 6vw;
-}
-header .search input:hover,
-header .search input:focus {
-    width: 20vw;
-    background: lightskyblue;
-}
-header .search input:focus {
-    outline: none;
-}
+
 /* main */
-.main {
-    background-image: url(/assets/logo_test2.png);
+main {
+    background-image: url(../assets/logo_test2.png);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: 100% 100%;
     
+}
+.title h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2vh 0vw;
 }
 .line1 ul {
     display: flex;
@@ -70,9 +32,9 @@ header .search input:focus {
 .line1 ul li {
     margin: 0vh 3.5vw;
     border: solid purple 5px;
-    background-color: royalblue;
+    background-color: blue;
     border-radius: 5px;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     
 }
 .line1 ul li p {
@@ -89,7 +51,7 @@ header .search input:focus {
 .line2 ul li {
     margin: 0vh 3.5vw;
     border: solid purple 5px;
-    background-color: royalblue;
+    background-color: blue;
     border-radius: 5px;
     
 }
@@ -97,20 +59,4 @@ header .search input:focus {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
-}
-/* Footer */
-footer {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    background-color: black;
-}
-footer ul{
-    display: flex;
-    align-items: center;
-}
-footer img{
-    width: 6vh;
-}
-footer ul li{
-    padding: 0px 11vw;
 }
