@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    /border: red 1px solid;
 }
 a {
     color: black;
@@ -27,7 +26,7 @@ main {
     display: flex;
 }
 .line1 img {
-    height: 35vh;
+    width: 17vw;
 }
 .line1 ul li {
     margin: 0vh 3.5vw;
@@ -46,7 +45,7 @@ main {
     display: flex;
 }
 .line2 img {
-    height: 35vh;
+    width: 17vw;
 }
 .line2 ul li {
     margin: 0vh 3.5vw;
